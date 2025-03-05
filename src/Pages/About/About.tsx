@@ -1,6 +1,8 @@
-export function Sobre() {
+import React from "react";
+
+export function About() {
   return (
-    <div className="max-w-5xl flex flex-col p-4 border-4 border-neon font-semibold text-xl overflow-hidden">
+    <div className="max-w-6xl flex flex-col p-4 border-4 border-neon font-semibold text-xl overflow-hidden">
       <p className="text-normal text-justify">
         Minha trajetória profissional começou como aprendiz na Sococo S/A
         Indústrias Alimentícias, onde desenvolvi habilidades em administração de
