@@ -1,7 +1,7 @@
-import { Github, IdCard, Linkedin, Locate, Mail } from 'lucide-react'
-import Image from 'next/image'
-import Foto from '../../../public/Imgs/Foto.png'
-import QR from '../../../public/Imgs/QR_code.png'
+import { Github, IdCard, Linkedin, Locate, Mail } from "lucide-react";
+import Image from "next/image";
+import Foto from "../../../public/Imgs/Foto.png";
+import QR from "../../../public/Imgs/QR_code.png";
 
 export function Infos() {
   return (
@@ -76,5 +76,5 @@ export function Infos() {
         />
       </main>
     </div>
-  )
+  );
 }

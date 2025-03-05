@@ -14,5 +14,5 @@ export function NavBar() {
         Habilidades
       </h1>
     </div>
-  )
+  );
 }

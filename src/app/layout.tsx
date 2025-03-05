@@ -1,20 +1,20 @@
-import type { Metadata } from 'next'
-import './globals.css'
+import type { Metadata } from "next";
+import "./globals.css";
+
+import { Infos } from "../Components/Infos/Infos";
+import { NavBar } from "@/Components/Navbar/Navbar";
 
 export const metadata: Metadata = {
-  title: 'Portfolio',
-}
+  title: "Portfolio",
+};
 
-export default function RootLayout({
-  children,
-}: Readonly<{
-  children: React.ReactNode
-}>) {
+export default function RootLayout() {
   return (
     <html lang="en">
       <body className="bg-black-100">
-        <main>{children}</main>
+        <NavBar />
+        <Infos />
       </body>
     </html>
-  )
+  );
 }

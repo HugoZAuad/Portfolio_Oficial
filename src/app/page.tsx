@@ -1,13 +1,9 @@
-import { NavBar } from '@/Components/Navbar/Navbar'
-import { Sobre } from '../Pages/Sobre/Sobre'
-import { Infos } from '@/Components/Infos/Infos'
+import { Sobre } from "@/Pages/Sobre/Sobre";
 
 export default function Home() {
   return (
     <div>
-      <NavBar />
-      <Infos />
       <Sobre />
     </div>
-  )
+  );
 }

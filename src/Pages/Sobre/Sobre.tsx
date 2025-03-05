@@ -1,7 +1,7 @@
 export function Sobre() {
   return (
-    <div>
-      <p>
+    <div className="max-w-5xl flex flex-col p-4 border-4 border-neon font-semibold text-xl overflow-hidden">
+      <p className="text-normal text-justify">
         Minha trajetória profissional começou como aprendiz na Sococo S/A
         Indústrias Alimentícias, onde desenvolvi habilidades em administração de
         pessoal e atendimento ao cliente. Em seguida, trabalhei como Auxiliar
@@ -13,7 +13,7 @@ export function Sobre() {
         cliente.
       </p>
       <br />
-      <p>
+      <p className="text-normal text-justify">
         Depois, ingressei na TCIA como Auxiliar de Logística, onde me
         especializei em análises de relatórios em Excel, gestão de estoques e
         criação de dashboards via Power BI, contribuindo para a eficiência
@@ -32,5 +32,5 @@ export function Sobre() {
         crescer e contribuir em um setor em constante evolução.
       </p>
     </div>
-  )
+  );
 }
