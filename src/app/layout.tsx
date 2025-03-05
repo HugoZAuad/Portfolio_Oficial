@@ -1,16 +1,19 @@
 import type { Metadata } from 'next'
 import './globals.css'
-import { Infos } from '../Components/Infos/Infos'
 
 export const metadata: Metadata = {
   title: 'Portfolio',
 }
 
-export default function RootLayout() {
+export default function RootLayout({
+  children,
+}: Readonly<{
+  children: React.ReactNode
+}>) {
   return (
     <html lang="en">
       <body className="bg-black-100">
-        <Infos />
+        <main>{children}</main>
       </body>
     </html>
   )

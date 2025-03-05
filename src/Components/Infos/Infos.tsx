@@ -1,4 +1,4 @@
-import { Github, IdCard, Linkedin, Locate, Mail, User } from 'lucide-react'
+import { Github, IdCard, Linkedin, Locate, Mail } from 'lucide-react'
 import Image from 'next/image'
 import Foto from '../../../public/Imgs/Foto.png'
 import QR from '../../../public/Imgs/QR_code.png'
@@ -6,12 +6,7 @@ import QR from '../../../public/Imgs/QR_code.png'
 export function Infos() {
   return (
     <div>
-      <main className="bg-black-300 text-neon box-content flex flex-col mt-30 ml-15 mr-15 p-2 rounded-lg shadow-xm w-70 border-4 border-green-100">
-        <h1 className="flex flex-row justify-center items-center mb-2 font-semibold text-2xl">
-          <User className="size-10 mr-1" />
-          SOBRE
-        </h1>
-
+      <main className="bg-black-300 text-neon box-content flex flex-col mt-5 ml-15 mr-15 p-2 rounded-lg shadow-xm w-70 border-4 border-green-100">
         <Image
           src={Foto}
           alt="Hugo Zeymer Auad"
@@ -70,7 +65,7 @@ export function Infos() {
         </p>
 
         <h3 className="text-normal flex justify-center items-center font-semibold text-2xl">
-          Minhas redes
+          Minhas Redes
         </h3>
         <Image
           src={QR}
