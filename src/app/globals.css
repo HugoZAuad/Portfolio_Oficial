@@ -1,18 +1,15 @@
 @import "tailwindcss";
 
 @theme {
-  /* Cores basicas */
   --color-black: #000;
   --color-normal: #fff;
 
-  /* Cores background */
   --color-black-100: #1a1a1a;
   --color-black-200: #2a2a2a;
   --color-black-300: #3a3a3a;
   --color-black-400: #4a4a4a;
   --color-green-700: #006400;
 
-  /* Cores texto */
   --color-neon: #39ff14;
   --color-green-100: #00a300;
   --color-green-200: #238b23;

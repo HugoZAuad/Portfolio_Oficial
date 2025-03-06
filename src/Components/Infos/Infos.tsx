@@ -6,7 +6,7 @@ import QR from "../../../public/Imgs/QR_code.png";
 export function Infos() {
   return (
     <div>
-      <main className="bg-black-300 text-neon box-content flex flex-col ml-15 mr-15 p-2 rounded-lg shadow-xm w-70 border-4 border-green-100">
+      <main className="bg-black-300 text-neon box-content flex flex-col ml-15  p-2 rounded-lg shadow-xm w-70 border-4 border-green-100">
         <Image
           src={Foto}
           alt="Hugo Zeymer Auad"
