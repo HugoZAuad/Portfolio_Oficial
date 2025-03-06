@@ -9,9 +9,9 @@ export function Arrow({ direction }: ArrowProps) {
   return (
     <div>
       {direction === "left" ? (
-        <ArrowLeft size={50} />
+        <ArrowLeft size={30} />
       ) : (
-        <ArrowRight size={50} />
+        <ArrowRight size={30} />
       )}
     </div>
   );
