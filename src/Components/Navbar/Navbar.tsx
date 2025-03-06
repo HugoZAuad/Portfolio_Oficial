@@ -19,7 +19,7 @@ export function NavBar({ setSection }: NavBarProps) {
         className="text-center md:text-left hover:text-neon cursor-pointer transition-colors duration-300"
         onClick={() => setSection("Habilidades")}
       >
-        Habilidades
+        Skills
       </h1>
       <h1
         className="text-center md:text-left hover:text-neon cursor-pointer transition-colors duration-300"

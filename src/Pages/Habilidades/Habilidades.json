@@ -40,5 +40,42 @@
       "descricao": "Capacidade de estruturar e planejar atividades de forma eficiente.",
       "nivel": "Médio"
     }
+  ],
+  "hardSkills": [
+    {
+      "nome": "HTML",
+      "descricao": "Conhecimento em linguagem de marcação para desenvolvimento de páginas web.",
+      "nivel": "Alto"
+    },
+    {
+      "nome": "CSS",
+      "descricao": "Habilidade em estilizar páginas web utilizando Cascading Style Sheets.",
+      "nivel": "Alto"
+    },
+    {
+      "nome": "JavaScript",
+      "descricao": "Conhecimento em linguagem de programação para desenvolvimento de interatividade em páginas web.",
+      "nivel": "Alto"
+    },
+    {
+      "nome": "Inglês - Intermediário",
+      "descricao": "Capacidade de compreender e se comunicar em inglês em um nível intermediário.",
+      "nivel": "Médio"
+    },
+    {
+      "nome": "Lógica de Programação",
+      "descricao": "Compreensão dos princípios de lógica que fundamentam a programação.",
+      "nivel": "Alto"
+    },
+    {
+      "nome": "Power BI",
+      "descricao": "Habilidade em usar a ferramenta para análise e visualização de dados.",
+      "nivel": "Alto"
+    },
+    {
+      "nome": "Excel Avançado",
+      "descricao": "Proficiente em funções avançadas do Excel para manipulação e análise de dados.",
+      "nivel": "Alto"
+    }
   ]
 }
