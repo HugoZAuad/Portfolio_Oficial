@@ -15,7 +15,7 @@
   bottom: -100px;
   width: 40px;
   height: 40px;
-  background: var(--color-normal);
+  background: #008b76;
   border-radius: 50%;
   animation: rise 10s infinite ease-in;
 }
