@@ -1,7 +1,24 @@
-export function Habilidades() {
+import React from "react";
+import habilidadesData from "./Habilidades.json";
+
+const Habilidades: React.FC = () => {
   return (
-    <div>
-      <h1>oi</h1>
-    </div>
-  )
-}
+    <section className="bg-black-300 max-w-2xl min-h-sm p-4 border-4 border-neon rounded-2xl font-semibold text-lg overflow-hidden">
+      <div>
+        <h3 className="text-2xl text-normal flex justify-center items-center font-semibold mb-4">
+          Habilidades Interpessoais
+        </h3>
+        <ul className="list-disc list-inside">
+          {habilidadesData.interpessoais.map((habilidade, index) => (
+            <li key={index} className="text-normal mb-2">
+              <strong>{habilidade.nome}</strong>: {habilidade.descricao} <br />
+              <span className="text-gray-500">Nível: {habilidade.nivel}</span>
+            </li>
+          ))}
+        </ul>
+      </div>
+    </section>
+  );
+};
+
+export default Habilidades;

@@ -6,7 +6,7 @@ import { NavBar } from "../Components/Navbar/Navbar";
 import { About } from "../Pages/About/About";
 import { Tech } from "../Pages/Tech/Tech";
 import { Projetos } from "../Pages/Projects/Projects";
-import { Habilidades } from "../Pages/Habilidades/Habilidades";
+import Habilidades from "../Pages/Habilidades/Habilidades";
 import { Infos } from "@/Components/Infos/Infos";
 
 import BubblesBackground from "@/app/BackgroundBolhas/BubblesBackground";

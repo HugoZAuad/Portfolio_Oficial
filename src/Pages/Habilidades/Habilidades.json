@@ -1,0 +1,44 @@
+{
+  "interpessoais": [
+    {
+      "nome": "Comprometimento",
+      "descricao": "Dedicação e responsabilidade em cumprir tarefas e objetivos.",
+      "nivel": "Alto"
+    },
+    {
+      "nome": "Flexibilidade",
+      "descricao": "Capacidade de se adaptar a novas situações e mudanças.",
+      "nivel": "Médio"
+    },
+    {
+      "nome": "Foco em resultados",
+      "descricao": "Orientação para alcançar metas e resultados positivos.",
+      "nivel": "Alto"
+    },
+    {
+      "nome": "Comunicação",
+      "descricao": "Habilidade de transmitir informações de forma clara e eficaz.",
+      "nivel": "Alto"
+    },
+    {
+      "nome": "Trabalho em equipe",
+      "descricao": "Colaboração e cooperação com os membros da equipe.",
+      "nivel": "Alto"
+    },
+    {
+      "nome": "Análise criteriosa",
+      "descricao": "Capacidade de avaliar informações de forma detalhada e crítica.",
+      "nivel": "Médio"
+    },
+    {
+      "nome": "Resolução de problemas",
+      "descricao": "Habilidade de identificar e solucionar problemas de forma eficaz.",
+      "nivel": "Alto"
+    },
+    {
+      "nome": "Organização",
+      "descricao": "Capacidade de estruturar e planejar atividades de forma eficiente.",
+      "nivel": "Médio"
+    }
+  ]
+}
