@@ -6,8 +6,8 @@
   height: 100%;
   overflow: hidden;
   z-index: 0;
-  background: black;
-  opacity: 0.5; /* Ajuste a opacidade conforme necessário */
+  background: var(--color-black-200);
+  opacity: 0.4; /* Ajuste a opacidade conforme necessário */
 }
 
 .bubble {

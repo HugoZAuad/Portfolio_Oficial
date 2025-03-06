@@ -17,6 +17,12 @@ export function NavBar({ setSection }: NavBarProps) {
       </h1>
       <h1
         className="text-center md:text-left hover:text-neon cursor-pointer transition-colors duration-300"
+        onClick={() => setSection("Habilidades")}
+      >
+        Habilidades
+      </h1>
+      <h1
+        className="text-center md:text-left hover:text-neon cursor-pointer transition-colors duration-300"
         onClick={() => setSection("Tecnologias")}
       >
         Tecnologias
@@ -26,12 +32,6 @@ export function NavBar({ setSection }: NavBarProps) {
         onClick={() => setSection("Projetos")}
       >
         Projetos
-      </h1>
-      <h1
-        className="text-center md:text-left hover:text-neon cursor-pointer transition-colors duration-300"
-        onClick={() => setSection("Habilidades")}
-      >
-        Habilidades
       </h1>
     </div>
   );
