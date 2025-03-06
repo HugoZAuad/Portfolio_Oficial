@@ -1,4 +1,11 @@
-import { Github, IdCard, Linkedin, Locate, Mail } from "lucide-react";
+import {
+  Github,
+  IdCard,
+  Linkedin,
+  Locate,
+  Mail,
+  Waypoints,
+} from "lucide-react";
 import Image from "next/image";
 import Foto from "../../../public/Imgs/Foto.png";
 import QR from "../../../public/Imgs/QR_code.png";
@@ -16,7 +23,7 @@ export function Infos() {
         />
 
         <h1 className="text-normal flex justify-center items-center font-semibold text-2xl mb-5">
-          Desevolvedor Web
+          Desevolvedor <span className="text-neon ml-2"> Front-End</span>
         </h1>
 
         <p className="flex flex-row mb-3">
@@ -35,11 +42,11 @@ export function Infos() {
         </p>
 
         <p className="flex flex-row mb-3 ">
-          <Linkedin className="mr-1" />
+          <Linkedin className="mr-1 text-linkedin" />
           Linkedin:
           <span className="text-normal">
             <a
-              className="hover:text-green-100 ml-2"
+              className="hover:text-green-100 transition-colors duration-300 ml-2"
               target="_blank"
               href="https://www.linkedin.com/in/hugozauad/"
               rel="noreferrer"
@@ -50,11 +57,11 @@ export function Infos() {
         </p>
 
         <p className="flex flex-row mb-3">
-          <Github className="mr-1" />
+          <Github className="mr-1 text-github" />
           Github:
           <span className="text-normal">
             <a
-              className="hover:text-green-100 ml-2"
+              className="hover:text-green-100 transition-colors duration-300 ml-2"
               target="_blank"
               href="https://github.com/HugoZAuad"
               rel="noreferrer"
@@ -65,7 +72,7 @@ export function Infos() {
         </p>
 
         <h3 className="text-normal flex justify-center items-center font-semibold text-2xl">
-          Minhas Redes
+          <Waypoints className="mr-1" /> Minhas Redes
         </h3>
         <Image
           src={QR}

@@ -37,7 +37,7 @@ export function About() {
       </div>
 
       <section className="flex flex-row justify-evenly">
-        <div className="bg-black-300 max-w-85 text-normal flex flex-col mt-2 p-4 border-4 rounded-2xl border-neon overflow-hidden max-h-70">
+        <div className="bg-black-300 max-w-85 text-normal flex flex-col mt-3 p-4 border-4 rounded-2xl border-neon overflow-hidden max-h-70">
           <h1 className="font-semibold text-2xl">Formação Academica</h1>
           <div className="font-light">
             <h4 className="mb-3">
@@ -52,7 +52,7 @@ export function About() {
           </div>
         </div>
 
-        <div className="bg-black-300 max-w-85 text-normal flex flex-col mt-2 p-4 border-4 rounded-2xl border-neon overflow-hidden">
+        <div className="bg-black-300 max-w-85 text-normal flex flex-col mt-3 p-4 border-4 rounded-2xl border-neon overflow-hidden">
           <h1 className="font-semibold text-2xl">Cursos e certificados</h1>
           <div className="font-light">
             <h4>- Introdução à Lógica de Programação</h4>

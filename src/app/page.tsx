@@ -32,8 +32,8 @@ export default function Home() {
   return (
     <div className="relative min-h-screen flex flex-col">
       <BubblesBackground />
-      <div className="relative z-10  min-h-screen flex flex-col">
-        <header className="p-4">
+      <div className="relative z-10 min-h-screen flex flex-col">
+        <header className="p-3">
           <NavBar setSection={setSection} />
         </header>
         <div className="flex flex-col md:flex-row flex-grow">

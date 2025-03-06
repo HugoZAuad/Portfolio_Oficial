@@ -12,8 +12,8 @@ const Habilidades: React.FC = () => {
           <ul className="list-disc list-inside">
             {habilidadesData.interpessoais.map((habilidade, index) => (
               <li key={index} className="text-normal mb-2">
-                <strong>{habilidade.nome}</strong>: {habilidade.descricao}{" "}
-                <br />
+                <strong className="text-green-300">{habilidade.nome}</strong>:{" "}
+                {habilidade.descricao} <br />
                 <span className="text-gray-500">Nível: {habilidade.nivel}</span>
               </li>
             ))}
@@ -28,8 +28,8 @@ const Habilidades: React.FC = () => {
           <ul className="list-disc list-inside">
             {habilidadesData.hardSkills.map((habilidade, index) => (
               <li key={index} className="text-normal mb-2">
-                <strong>{habilidade.nome}</strong>: {habilidade.descricao}{" "}
-                <br />
+                <strong className="text-green-300">{habilidade.nome}</strong>:{" "}
+                {habilidade.descricao} <br />
                 <span className="text-gray-500">Nível: {habilidade.nivel}</span>
               </li>
             ))}
