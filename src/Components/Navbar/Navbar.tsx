@@ -9,30 +9,30 @@ interface NavBarProps {
 export function NavBar({ setSection }: NavBarProps) {
   return (
     <div className="text-2xl flex flex-col md:flex-row justify-end gap-5 text-white font-semibold md:mr-5 md:mt-5">
-      <h1
-        className="text-center md:text-left hover:text-neon cursor-pointer transition-colors duration-300"
+      <button
+        className="text-center md:text-left hover:text-neon cursor-pointer transition-colors duration-300 bg-transparent border-none"
         onClick={() => setSection("Sobre")}
       >
         Sobre
-      </h1>
-      <h1
-        className="text-center md:text-left hover:text-neon cursor-pointer transition-colors duration-300"
+      </button>
+      <button
+        className="text-center md:text-left hover:text-neon cursor-pointer transition-colors duration-300 bg-transparent border-none"
         onClick={() => setSection("Habilidades")}
       >
         Skills
-      </h1>
-      <h1
-        className="text-center md:text-left hover:text-neon cursor-pointer transition-colors duration-300"
+      </button>
+      <button
+        className="text-center md:text-left hover:text-neon cursor-pointer transition-colors duration-300 bg-transparent border-none"
         onClick={() => setSection("Tecnologias")}
       >
         Tecnologias
-      </h1>
-      <h1
-        className="text-center md:text-left hover:text-neon cursor-pointer transition-colors duration-300"
+      </button>
+      <button
+        className="text-center md:text-left hover:text-neon cursor-pointer transition-colors duration-300 bg-transparent border-none"
         onClick={() => setSection("Projetos")}
       >
         Projetos
-      </h1>
+      </button>
     </div>
   );
 }
