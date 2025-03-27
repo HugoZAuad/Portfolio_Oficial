@@ -39,3 +39,7 @@ Para iniciar o servidor de desenvolvimento, execute:
 npm run dev
 
 O projeto estará disponível em http://localhost:3000.
+
+## Deploy
+
+https://portfolio-hza.vercel.app
