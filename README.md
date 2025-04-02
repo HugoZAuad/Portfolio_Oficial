@@ -103,3 +103,12 @@ Aqui estão algumas configurações úteis do VS Code para este projeto:
 "tabnine.experimentalAutoImports": true,
 "typescript.updateImportsOnFileMove.enabled": "always"
 }
+
+## Deploy
+
+https://portfolio-hza.vercel.app
+
+Contribuição
+Contribuições são bem-vindas! Sinta-se à vontade para abrir issues ou enviar pull requests.
+
+Desenvolvido com ❤️ por Hugo. ```
