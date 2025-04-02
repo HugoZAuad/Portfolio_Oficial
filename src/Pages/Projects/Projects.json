@@ -18,11 +18,11 @@
     },
     {
       "id": 3,
-      "title": "JS da Lâmpada",
-      "description": "Este projeto é uma simples aplicação web que simula o funcionamento de uma lâmpada. A lâmpada pode ser ligada, desligada e quebrada através de botões e cliques na imagem.",
-      "image": "https://i.imgur.com/sqsbMMw.png",
-      "link": "https://github.com/HugoZAuad/Desafio-Lampada",
-      "siteLink": "https://desafio-lampada.vercel.app"
+      "title": "Lista de Tarefas",
+      "description": "Este é um projeto simples de uma aplicação web para gerenciar tarefas, permitindo adicionar, concluir e remover atividades.",
+      "image": "https://i.imgur.com/JqdUU8q.png",
+      "link": "https://github.com/HugoZAuad/ToDo-Lista",
+      "siteLink": "to-do-listas.vercel.app"
     },
     {
       "id": 4,
@@ -42,11 +42,11 @@
     },
     {
       "id": 6,
-      "title": "InstaBytes",
-      "description": "Este projeto é uma simples de um clone do Instagram, um CRUD, no qual foi feito um trabalho de utilização do back-END junto do front-END.",
-      "image": "https://i.imgur.com/T9A1AC4.png",
-      "link": "https://github.com/HugoZAuad/Projeto-Backend-Imers-o",
-      "siteLink": "https://projeto-backend-imers-o.vercel.app"
+      "title": "ClimoTex",
+      "description": "ClimoTex é um aplicativo de clima em tempo real desenvolvido com React.js, Next.js e Tailwind CSS.",
+      "image": "https://i.imgur.com/3WB2yLI.png",
+      "link": "https://github.com/HugoZAuad/ClimoTex",
+      "siteLink": "https://climotex.vercel.app"
     },
     {
       "id": 7,

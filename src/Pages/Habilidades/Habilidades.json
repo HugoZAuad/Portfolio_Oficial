@@ -38,28 +38,28 @@
     {
       "nome": "Organização",
       "descricao": "Capacidade de estruturar e planejar atividades de forma eficiente.",
-      "nivel": "Médio"
+      "nivel": "Alto"
     }
   ],
   "hardSkills": [
     {
-      "nome": "HTML",
-      "descricao": "Conhecimento em linguagem de marcação para desenvolvimento de páginas web.",
+      "nome": "React.Js",
+      "descricao": "Uma biblioteca JavaScript desenvolvida pelo Facebook para criar interfaces de usuário interativas e eficientes.",
       "nivel": "Alto"
     },
     {
-      "nome": "CSS",
-      "descricao": "Habilidade em estilizar páginas web utilizando Cascading Style Sheets.",
+      "nome": "Next.Js",
+      "descricao": "Um framework para React que adiciona funcionalidades como renderização no servidor (SSR), geração estática (SSG) e suporte integrado a routing.",
       "nivel": "Alto"
     },
     {
       "nome": "JavaScript",
       "descricao": "Conhecimento em linguagem de programação para desenvolvimento de interatividade em páginas web.",
-      "nivel": "Alto"
+      "nivel": "Médio"
     },
     {
-      "nome": "Inglês - Intermediário",
-      "descricao": "Capacidade de compreender e se comunicar em inglês em um nível intermediário.",
+      "nome": "TypeScript",
+      "descricao": "Uma extensão do JavaScript que adiciona tipagem estática, tornando o código mais seguro e robusto.",
       "nivel": "Médio"
     },
     {
@@ -68,14 +68,14 @@
       "nivel": "Alto"
     },
     {
-      "nome": "Power BI",
-      "descricao": "Habilidade em usar a ferramenta para análise e visualização de dados.",
-      "nivel": "Alto"
+      "nome": "Inglês - Intermediário",
+      "descricao": "Capacidade de compreender e se comunicar em inglês em um nível intermediário.",
+      "nivel": "Médio"
     },
     {
-      "nome": "Excel Avançado",
-      "descricao": "Proficiente em funções avançadas do Excel para manipulação e análise de dados.",
-      "nivel": "Alto"
+      "nome": "TailWind Css",
+      "descricao": "Um framework CSS baseado em utilitários, que permite estilizar diretamente nos componentes sem precisar escrever folhas de estilo separadas.",
+      "nivel": "Médio"
     }
   ]
 }
