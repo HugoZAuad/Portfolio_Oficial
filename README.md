@@ -53,13 +53,14 @@ O projeto estará disponível em http://localhost:3000.
 
 Componentes
 Layout
+
 O componente Layout define a estrutura básica da aplicação, incluindo o título e a descrição.
 
 Infos
 O componente Infos exibe informações pessoais e links para redes sociais.
 
 Configurações do VS Code
-Aqui estão algumas configurações úteis para o Visual Studio Code ao trabalhar neste projeto:
+Aqui estão algumas configurações úteis do VS Code para este projeto:
 
 {
 "workbench.colorTheme": "Omni",
@@ -102,12 +103,3 @@ Aqui estão algumas configurações úteis para o Visual Studio Code ao trabalha
 "tabnine.experimentalAutoImports": true,
 "typescript.updateImportsOnFileMove.enabled": "always"
 }
-
-Contribuição
-Contribuições são bem-vindas! Sinta-se à vontade para abrir issues ou enviar pull requests.
-
-## Deploy
-
-https://portfolio-hza.vercel.app
-
-Desenvolvido com ❤️ por Hugo.
