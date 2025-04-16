@@ -32,7 +32,7 @@ export function Tech() {
         return (
           <div
             key={index}
-            className="bg-black-300 p-4 border-4 border-neon rounded-2xl shadow-lg flex flex-col items-center hover:shadow-green-400 cursor-pointer "
+            className="bg-black-300 p-4 border-4 border-neon rounded-2xl shadow-lg flex flex-col items-center hover:shadow-green-300 transition-shadow duration-300 cursor-pointer"
           >
             <FontAwesomeIcon
               icon={IconComponent}

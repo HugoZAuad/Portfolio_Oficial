@@ -51,7 +51,7 @@ export function Projetos() {
     <main className="bg-black-300 max-w-7xl flex flex-col justify-center items-center p-4 border-4 border-neon rounded-2xl font-semibold text-lg overflow-hidden">
       <div className="flex items-center justify-around w-full mt-10 mb-4">
         <div
-          className="bg-green-200 w-12 h-12 rounded-full cursor-pointer hover:bg-green-400 transition-colors duration-300 flex items-center justify-center"
+          className="hover:text-black text-white w-12 h-12 rounded-full cursor-pointer hover:bg-green-400 transition-colors duration-300 flex items-center justify-center"
           onClick={handlePreviousProject}
         >
           <Arrow direction="left" />
@@ -60,13 +60,13 @@ export function Projetos() {
         <Image
           src={currentProject.image}
           alt={currentProject.title}
-          className="mx-4 max-w-7xl shadow-green-400 rounded-3xl shadow-lg"
+          className="mx-4 max-w-7xl shadow-black-500 rounded-3xl shadow-md"
           width={900}
           height={500}
         />
 
         <div
-          className="bg-green-200 w-12 h-12 rounded-full cursor-pointer hover:bg-green-400 transition-colors duration-300 flex items-center justify-center"
+          className="w-12 h-12 rounded-full cursor-pointer hover:bg-green-400 hover:text-black text-white transition-colors duration-300 flex items-center justify-center"
           onClick={handleNextProject}
         >
           <Arrow direction="right" />
@@ -79,7 +79,7 @@ export function Projetos() {
         <p className="text-normal mb-2">{currentProject.description}</p>
         <a
           href={currentProject.link}
-          className="text-green-300 transition-colors duration-300 mb-1 hover:text-green-700"
+          className="text-green-300 transition-colors duration-300 mb-1 hover:text-white"
           target="_blank"
           rel="noopener noreferrer"
         >
@@ -87,7 +87,7 @@ export function Projetos() {
         </a>
         <a
           href={currentProject.siteLink}
-          className="text-green-300 transition-colors duration-300 mb-1 hover:text-green-700"
+          className="text-green-300 transition-colors duration-300 mb-1 hover:text-white"
           target="_blank"
           rel="noopener noreferrer"
         >
