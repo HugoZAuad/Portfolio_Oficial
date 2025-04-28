@@ -4,19 +4,19 @@
   --color-black: #000;
   --color-normal: #fff;
 
-  --color-black-100: #1a1a1a;
-  --color-black-200: #2a2a2a;
-  --color-black-300: #3a3a3a;
-  --color-black-400: #4a4a4a;
-  --color-black-500: #7a7a7a;
-  --color-green-700: #006400;
+  --color-black-100: #11295a;
+  --color-black-200: #134195;
+  --color-black-300: #0f49be;
+  --color-black-400: #0a5aeb;
+  --color-black-500: #0a6eff;
+  --color-green-700: #2891ff;
 
-  --color-neon: #39ff14;
-  --color-green-100: #00a300;
-  --color-green-200: #238b23;
-  --color-green-300: #95ca98;
-  --color-green-400: #c8e6c9;
+  --color-neon: #88cfff;
+  --color-green-100: #50b4ff;
+  --color-green-200: #88cfff;
+  --color-green-300: #b9e1ff;
+  --color-green-400: #d7edff;
 
-  --color-linkedin: #0e80a8;
+  --color-linkedin: #297bff;
   --color-github: #171515;
 }
