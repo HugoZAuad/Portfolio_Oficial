@@ -12,8 +12,8 @@ import QR from "../../../public/Imgs/QR_code.png";
 
 export function Infos() {
   return (
-    <div>
-      <main className="bg-black-300 text-neon box-content flex flex-col ml-15  p-2 rounded-lg shadow-xm w-70 border-4 border-green-100">
+    <div className="flex justify-center items-center">
+      <main className="bg-black-300 text-neon box-content flex flex-col ml-15 p-2 rounded-lg shadow-xm w-70 border-4 border-green-100">
         <Image
           src={Foto}
           alt="Hugo Zeymer Auad"
@@ -22,7 +22,7 @@ export function Infos() {
           className="rounded-2xl ml-9 mb-2"
         />
 
-        <h1 className="text-normal flex justify-center items-center font-semibold text-2xl mb-5">
+        <h1 className="text-normal flex justify-center items-center font-semibold text-xl mb-5">
           Desevolvedor <span className="text-neon ml-2"> Front-End</span>
         </h1>
 

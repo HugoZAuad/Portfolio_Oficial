@@ -60,8 +60,8 @@ export function Projetos() {
         <Image
           src={currentProject.image}
           alt={currentProject.title}
-          className="mx-4 max-w-7xl shadow-black-500 rounded-3xl shadow-md"
-          width={900}
+          className="mx-4 max-w-5xl shadow-black-500 rounded-3xl shadow-md"
+          width={800}
           height={500}
         />
 
@@ -77,22 +77,24 @@ export function Projetos() {
           {currentProject.title}
         </h3>
         <p className="text-normal mb-2">{currentProject.description}</p>
-        <a
-          href={currentProject.link}
-          className="text-green-300 transition-colors duration-300 mb-1 hover:text-white"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Repositório
-        </a>
-        <a
-          href={currentProject.siteLink}
-          className="text-green-300 transition-colors duration-300 mb-1 hover:text-white"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Site
-        </a>
+        <div className="flex gap-4 items-center justify-center w-full">
+          <a
+            href={currentProject.link}
+            className="text-green-300 transition-colors duration-300 mb-1 hover:text-white"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Repositório
+          </a>
+          <a
+            href={currentProject.siteLink}
+            className="text-green-300 transition-colors duration-300 mb-1 hover:text-white"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Deploy
+          </a>
+        </div>
       </div>
     </main>
   );
