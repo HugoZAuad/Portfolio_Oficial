@@ -36,30 +36,13 @@ export function About() {
 
             <h4 className="mb-3">
               GRAN FACULDADE - <p>Barachelado em Ciências da Computação</p>
-              <span>Jan/2025 a Jan/2029</span>
+              <span>Jan/2025 a Jan/2028</span>
             </h4>
 
             <h4 className="mb-3">
               DNC - <p>Tecnico em Desenvolvedor Full-Stack</p>
               <span>Em andamento</span>
             </h4>
-          </div>
-        </div>
-
-        <div className="bg-black-300 max-w-85 text-normal flex flex-col mt-3 p-4 border-4 rounded-2xl border-neon overflow-hidden">
-          <h1 className="font-semibold text-2xl">Certificados</h1>
-          <div className="font-light">
-            <h4>- Introdução à Lógica de Programação</h4>
-            <h4>- Lógica de Programação com JavaScript</h4>
-            <h4>- Introdução ao Desenvolvimento Web</h4>
-            <h4>- Introdução a HTML + CSS</h4>
-            <h4>- Princípios de Design de Interface</h4>
-            <h4>- Introdução ao Front End com React.JS</h4>
-            <h4>- Desenvolvimento Front End</h4>
-            <h4>- Versionamento de Código Git</h4>
-            <h4>- Scrum - Gestão de Projetos Ágeis</h4>
-            <h4>- Certificação em pacote Office e Office 365</h4>
-            <h4>- Certificação em Power BI</h4>
           </div>
         </div>
       </section>

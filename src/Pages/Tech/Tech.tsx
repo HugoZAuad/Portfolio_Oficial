@@ -8,9 +8,14 @@ import {
   faReact,
   faNodeJs,
   faNeos,
-  faChrome,
+  faFreeCodeCamp,
   faFigma,
   IconDefinition,
+  faBootstrap,
+  faCss3,
+  faGitAlt,
+  faMdb,
+  faStripeS,
 } from "@fortawesome/free-brands-svg-icons";
 
 const iconMap: { [key: string]: IconDefinition } = {
@@ -20,14 +25,19 @@ const iconMap: { [key: string]: IconDefinition } = {
   faReact,
   faNodeJs,
   faNeos,
-  faChrome,
+  faFreeCodeCamp,
   faFigma,
+  faBootstrap,
+  faCss3,
+  faGitAlt,
+  faMdb,
+  faStripeS,
 };
 
 export function Tech() {
   return (
-    <div className="grid grid-cols-4 gap-4 p-4 ">
-      {techsData.tecnicas.map((tech, index) => {
+    <div className="grid grid-cols-4 gap-4 ">
+      {techsData.Tecnologias.map((tech, index) => {
         const IconComponent = iconMap[tech.icone];
         return (
           <div
@@ -37,14 +47,12 @@ export function Tech() {
             <FontAwesomeIcon
               icon={IconComponent}
               size="3x"
-              className="mb-4"
+              className="mb-4 rounded-full p-3 bg-black-200 border-4 border-neon"
               style={{ color: tech.cor }}
             />
             <h2 className="text-2xl text-normal font-semibold mb-2">
               {tech.nome}
             </h2>
-            <p className="text-normal mb-2">{tech.descricao}</p>
-            <span className="text-sm text-gray-400">Nível: {tech.nivel}</span>
           </div>
         );
       })}

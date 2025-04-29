@@ -1,67 +1,74 @@
 {
-  "tecnicas": [
+  "Tecnologias": [
     {
       "nome": "HTML5",
-      "descricao": "Linguagem de marcação usada para estruturar e apresentar conteúdo na web.",
-      "nivel": "Avançado",
       "icone": "faHtml5",
       "cor": "#E44D26"
     },
     {
       "nome": "CSS3",
-      "descricao": "Linguagem de estilo usada para descrever a apresentação de um documento escrito em HTML ou XML.",
-      "nivel": "Avançado",
       "icone": "faCss3Alt",
       "cor": "#1572B6"
     },
     {
       "nome": "JavaScript",
-      "descricao": "Linguagem de programação que permite a criação de conteúdo dinâmico e interativo na web.",
-      "nivel": "Avançado",
       "icone": "faJs",
       "cor": "#F7DF1E"
     },
     {
       "nome": "React",
-      "descricao": "Biblioteca JavaScript para construir interfaces de usuário.",
-      "nivel": "Intermediário",
       "icone": "faReact",
       "cor": "#61DAFB"
     },
     {
       "nome": "Node.js",
-      "descricao": "Ambiente de execução JavaScript server-side.",
-      "nivel": "Intermediário",
       "icone": "faNodeJs",
       "cor": "#8CC84B"
     },
     {
       "nome": "TypeScript",
-      "descricao": "Superset do JavaScript que adiciona tipagem estática.",
-      "nivel": "Intermediário",
       "icone": "faNodeJs",
       "cor": "#007ACC"
     },
     {
       "nome": "Next.js",
-      "descricao": "Framework React para aplicações web com renderização do lado do servidor.",
-      "nivel": "Intermediário",
       "icone": "faNeos",
       "cor": "#000000"
     },
     {
-      "nome": "Desenvolvimento Web",
-      "descricao": "Habilidade geral em criar e manter sites e aplicações web.",
-      "nivel": "Avançado",
-      "icone": "faChrome",
-      "cor": "#4285F4"
+      "nome": "Firebase",
+      "icone": "faFreeCodeCamp",
+      "cor": "#FFCA28"
     },
     {
-      "nome": "UI/UX Design - Figma",
-      "descricao": "Habilidade em criar interfaces de usuário intuitivas e agradáveis.",
-      "nivel": "Intermediário",
+      "nome": "Figma",
       "icone": "faFigma",
       "cor": "#F24E1E"
+    },
+    {
+      "nome": "Bootstrap ",
+      "icone": "faBootstrap",
+      "cor": "#563D7C"
+    },
+    {
+      "nome": "Tailwind CSS",
+      "icone": "faCss3",
+      "cor": "#38B2AC"
+    },
+    {
+      "nome": "Git",
+      "icone": "faGitAlt",
+      "cor": "#F05032"
+    },
+    {
+      "nome": "MongoDB",
+      "icone": "faMdb",
+      "cor": "#47A248"
+    },
+    {
+      "nome": "Selenium",
+      "icone": "faStripeS",
+      "cor": "#43B02A"
     }
   ]
 }
