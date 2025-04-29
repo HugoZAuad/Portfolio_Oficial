@@ -36,7 +36,7 @@ export function About() {
 
             <h4 className="mb-3">
               GRAN FACULDADE - <p>Barachelado em Ciências da Computação</p>
-              <span>Jan/2025 a Jan/2029</span>
+              <span>Jan/2025 a Jan/2028</span>
             </h4>
 
             <h4 className="mb-3">
