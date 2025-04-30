@@ -4,7 +4,7 @@ import "./BubblesBackground.css";
 const BubblesBackground: React.FC = () => {
   return (
     <div className="bubbles-background">
-      {[...Array(10)].map((_, i) => (
+      {[...Array(50)].map((_, i) => (
         <div key={i} className="bubble"></div>
       ))}
     </div>

@@ -21,57 +21,105 @@
 }
 
 .bubble:nth-child(1) {
-  left: 10%;
+  left: 5%;
   animation-duration: 8s;
   animation-delay: 2s;
 }
 
 .bubble:nth-child(2) {
-  left: 20%;
+  left: 10%;
   animation-duration: 10s;
   animation-delay: 4s;
 }
 
 .bubble:nth-child(3) {
-  left: 30%;
+  left: 15%;
   animation-duration: 12s;
   animation-delay: 6s;
 }
 
 .bubble:nth-child(4) {
-  left: 40%;
+  left: 20%;
   animation-duration: 14s;
   animation-delay: 8s;
 }
 
 .bubble:nth-child(5) {
-  left: 50%;
+  left: 25%;
   animation-duration: 16s;
   animation-delay: 10s;
 }
 
 .bubble:nth-child(6) {
-  left: 60%;
+  left: 30%;
   animation-duration: 18s;
   animation-delay: 12s;
 }
 
 .bubble:nth-child(7) {
-  left: 70%;
+  left: 35%;
   animation-duration: 20s;
   animation-delay: 14s;
 }
 
 .bubble:nth-child(8) {
-  left: 80%;
+  left: 40%;
   animation-duration: 22s;
   animation-delay: 16s;
 }
 
 .bubble:nth-child(9) {
-  left: 90%;
+  left: 45%;
   animation-duration: 24s;
   animation-delay: 18s;
+}
+
+.bubble:nth-child(10) {
+  left: 50%;
+  animation-duration: 26s;
+  animation-delay: 20s;
+}
+
+.bubble:nth-child(11) {
+  left: 55%;
+  animation-duration: 28s;
+  animation-delay: 22s;
+}
+
+.bubble:nth-child(12) {
+  left: 60%;
+  animation-duration: 30s;
+  animation-delay: 24s;
+}
+
+.bubble:nth-child(13) {
+  left: 65%;
+  animation-duration: 32s;
+  animation-delay: 26s;
+}
+
+.bubble:nth-child(14) {
+  left: 70%;
+  animation-duration: 34s;
+  animation-delay: 28s;
+}
+
+.bubble:nth-child(15) {
+  left: 75%;
+  animation-duration: 36s;
+  animation-delay: 30s;
+}
+
+.bubble:nth-child(16) {
+  left: 80%;
+  animation-duration: 38s;
+  animation-delay: 32s;
+}
+
+.bubble:nth-child(17) {
+  left: 90%;
+  animation-duration: 40s;
+  animation-delay: 34s;
 }
 
 @keyframes rise {
@@ -80,7 +128,7 @@
     opacity: 1;
   }
   100% {
-    transform: translateY(-1000px);
+    transform: translateY(-4000px);
     opacity: 0;
   }
 }
