@@ -11,7 +11,7 @@ Bem-vindo ao repositório do meu portfólio! Este projeto foi desenvolvido utili
 ## Estrutura do Projeto
 
 A estrutura do projeto está organizada da seguinte forma:
-
+```
 PortfolioOF/
 ├── public/
 │└── Imgs/
@@ -26,6 +26,7 @@ PortfolioOF/
 ├── .gitignore
 ├── package.json
 └── README.md
+```
 
 ## Instalação
 
